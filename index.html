@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Главная — кофейня «Зерно»</title>
+  <!-- Bootstrap 5: готовые стили и компоненты -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body id="top" class="d-flex flex-column min-vh-100">
+  <header class="bg-brand text-white text-center py-3">
+    <h1 class="h2 m-0">Кофейня «Зерно»</h1>
+  </header>
+  <!-- Единое меню: текущая страница выделена классом active; на телефоне сворачивается в кнопку -->
+  <nav class="navbar navbar-expand-md bg-body-tertiary border-bottom">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Открыть меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav w-100 justify-content-between gap-1">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="program.html">Я и моя образовательная программа</a></li>
+          <li class="nav-item"><a class="nav-link" href="shop.html">Магазин</a></li>
+          <li class="nav-item"><a class="nav-link" href="form.html">Форма заказа</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container py-4 flex-grow-1">
+    <h2 class="text-center mb-3">Добро пожаловать в «Зерно»</h2>
+    <p class="lead">«Зерно» — небольшая кофейня, где к каждой чашке относятся как к маленькому проекту: от выбора плантации до температуры воды. Здесь вы найдёте рассказы о том, как устроен вкус кофе, советы по домашней заварке и каталог напитков, которые можно заказать онлайн.</p>
+    <!-- Внутренняя навигация по закладкам -->
+    <p class="d-flex flex-wrap gap-2 mb-4">
+      <a class="btn btn-outline-secondary btn-sm rounded-pill" href="#section1">На раздел 1</a>
+      <a class="btn btn-outline-secondary btn-sm rounded-pill" href="#section2">На раздел 2</a>
+      <a class="btn btn-outline-secondary btn-sm rounded-pill" href="#top">В начало страницы</a>
+    </p>
+    <div class="row g-4">
+      <section id="section1" class="col-md-6">
+        <h3>Раздел 1. Откуда берётся вкус</h3>
+        <p>Вкус кофе складывается задолго до чашки: высота плантации, сорт, способ обработки ягод и степень обжарки. Арабика растёт высоко в горах и даёт сладость, кислотность и ягодные ноты. Робуста выносливее, содержит больше кофеина и добавляет плотное тело и горчинку.</p>
+        <p>Ягоды очищают по-разному. При промытой обработке мякоть смывают водой, и вкус получается чистым и ярким. При натуральной ягоды сушат целиком, и в чашке появляются фруктовые, винные тона.</p>
+        <p>Светлая обжарка сохраняет кислотность и аромат региона, средняя делает вкус сбалансированным, тёмная даёт шоколадную горчинку. Мы берём зерно у небольших ферм и обжариваем партиями, чтобы между обжаркой и вашей чашкой проходило не больше двух недель.</p>
+        <ul>
+          <li>Эфиопия — цветы, цитрус, чай.</li>
+          <li>Колумбия — карамель, орех, красное яблоко.</li>
+          <li>Бразилия — шоколад, орех, низкая кислотность.</li>
+        </ul>
+        <a href="#top">к началу страницы</a>
+      </section>
+      <section id="section2" class="col-md-6">
+        <h3>Раздел 2. Как заварить дома</h3>
+        <p>Начните со свежего зерна и мельницы: кофе, смолотый заранее, теряет аромат за считаные дни. Для фильтра берите помол средней крупности и воду около 93 °C, пропорция — 60 г кофе на литр воды. Для эспрессо помол мельче, а на 18 г кофе выходит около 36 г напитка за полминуты.</p>
+        <p>Для френч-пресса нужен крупный помол и четыре минуты настаивания, для турки — помол в пыль и медленный нагрев, без кипения. Если напиток горчит, помол слишком мелкий или заварка слишком долгая; если кислит и кажется водянистым, помол стоит сделать мельче.</p>
+        <p>Хранить зерно лучше в тёмной герметичной банке при комнатной температуре. Холодильник и морозилка нужны редко: влага и посторонние запахи портят вкус.</p>
+        <a href="#top">к началу страницы</a>
+      </section>
+    </div>
+    <div class="text-center mt-5">
+      <h3>Заказать кофе</h3>
+      <p>Выберите напиток в магазине и оформите заказ.</p>
+      <a class="btn btn-primary" href="shop.html">Перейти в магазин</a>
+    </div>
+  </main>
+  <footer class="bg-brand text-white text-center py-3 mt-auto">© 2026 Кофейня «Зерно». Учебный проект</footer>
+</body>
+</html>

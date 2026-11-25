@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "title": "Эспрессо",
+    "vendor_code": "COF-001",
+    "description": "Насыщенный и плотный, с шоколадным послевкусием.",
+    "price": 150,
+    "img": "images/coffee1.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Американо",
+    "vendor_code": "COF-002",
+    "description": "Эспрессо с горячей водой, мягкий вкус.",
+    "price": 170,
+    "img": "images/coffee2.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Капучино",
+    "vendor_code": "COF-003",
+    "description": "Эспрессо, молоко и плотная молочная пенка.",
+    "price": 220,
+    "img": "images/coffee3.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Латте",
+    "vendor_code": "COF-004",
+    "description": "Много молока и нежная пенка.",
+    "price": 240,
+    "img": "images/coffee4.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Флэт уайт",
+    "vendor_code": "COF-005",
+    "description": "Двойной эспрессо с бархатистым молоком.",
+    "price": 250,
+    "img": "images/coffee5.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Раф",
+    "vendor_code": "COF-006",
+    "description": "Сливки, ваниль и эспрессо.",
+    "price": 280,
+    "img": "images/coffee6.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Мокка",
+    "vendor_code": "COF-007",
+    "description": "Кофе с горячим шоколадом.",
+    "price": 260,
+    "img": "images/coffee7.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Колд брю",
+    "vendor_code": "COF-008",
+    "description": "Холодная экстракция, 12 часов настаивания.",
+    "price": 290,
+    "img": "images/coffee8.jpg"
+  }
+]
